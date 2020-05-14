@@ -1,28 +1,28 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: Jordi's Dev Log 
 
 # Short description of your site
 description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: Some Person
-
+author: Jordi Eguren Brown
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+          #    - Beautiful Jekyll: "https://beautifuljekyll.com"
+      #    - Learn markdown: "https://www.markdowntutorial.com/"
+      #  Author's home: "https://deanattali.com"
 
+          
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: https://avatars1.githubusercontent.com/u/45364266?s=400&u=c751071e201dfff0394c912a43bbabe59f927bc3&v=4
 
 # By default, the image is cut into a circle. You can disable this behaviour here.
 round-avatar: true
@@ -38,10 +38,8 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "jordi.eguren.brown@gmail.com"
+  github: jordi5
   rss: true
 #  reddit: yourname
 #  linkedin: daattali
@@ -55,16 +53,16 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+  telegram: jordi5
 #  calendly: yourname
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -182,7 +180,7 @@ defaults:
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
       readtime: false # add estimated reading time on all blog posts
   -
     scope:
