@@ -40,8 +40,8 @@ round-avatar: true
 social-network-links:
   email: "jordi.eguren.brown@gmail.com"
   github: jordi5
-  rss: true
-  reddit: notjordi5
+  rss: false
+  twitter: notjordi5
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
