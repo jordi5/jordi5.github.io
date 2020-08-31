@@ -164,10 +164,9 @@ date_format: "%B %-d, %Y"
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
 markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title.html
 highlighter: rouge
-permalink: /:year-:month-:title-:output_ext/
 paginate: 5
-
 kramdown:
   input: GFM
 
